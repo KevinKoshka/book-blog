@@ -1,0 +1,382 @@
+[{
+	"name": "Eloquent Javascript",
+	"chapters": [{
+			"title": "Introduction",
+			"order": 0,
+			"pages": [{
+					"title": "Introduction",
+					"order": 0,
+					"template": "0"
+				},
+				{
+					"title": "On Programming",
+					"order": 1,
+					"template": "1"
+				}, {
+					"title": "What is Javascript?",
+					"order": 2,
+					"template": "2"
+				},
+				{
+					"title": "Code, and what to do with it",
+					"order": 3,
+					"template": "3"
+				},
+				{
+					"title": "Overview of this book",
+					"order": 4,
+					"template": "4"
+				},
+				{
+					"title": "Typographic conventions",
+					"order": 5,
+					"template": "5"
+				}
+			]
+		},
+		{
+			"title": "Values, types and Operators",
+			"order": 1,
+			"pages": [{
+					"title": "Values, types and Operators",
+					"order": 0,
+					"template": "0"
+				},
+				{
+					"title": "Values",
+					"order": 1,
+					"template": "1"
+				}, {
+					"title": "Numbers",
+					"order": 2,
+					"template": "2"
+				},
+				{
+					"title": "Strings",
+					"order": 3,
+					"template": "3"
+				},
+				{
+					"title": "Unary operators",
+					"order": 4,
+					"template": "4"
+				},
+				{
+					"title": "Boolean values",
+					"order": 5,
+					"template": "5"
+				},
+				{
+					"title": "Unified values",
+					"order": 6,
+					"template": "6"
+				},
+				{
+					"title": "Summary",
+					"order": 7,
+					"template": "7"
+				}
+			]
+		},
+		{
+			"title": "Program Structure",
+			"order": 2,
+			"pages": [{
+					"title": "Program Structure",
+					"order": 0,
+					"template": "0"
+				},
+				{
+					"title": "Expressions and Statements",
+					"order": 1,
+					"template": "1"
+				}, {
+					"title": "Variables",
+					"order": 2,
+					"template": "2"
+				},
+				{
+					"title": "Keywords and reserved words",
+					"order": 3,
+					"template": "3"
+				},
+				{
+					"title": "The Environment",
+					"order": 4,
+					"template": "4"
+				},
+				{
+					"title": "Functions",
+					"order": 5,
+					"template": "5"
+				},
+				{
+					"title": "The console.log() function",
+					"order": 6,
+					"template": "6"
+				},
+				{
+					"title": "Return values",
+					"order": 7,
+					"template": "7"
+				},
+				{
+					"title": "Prompt and confirm",
+					"order": 8,
+					"template": "8"
+				},
+				{
+					"title": "Control flow",
+					"order": 9,
+					"template": "9"
+				},
+				{
+					"title": "Conditional execution",
+					"order": 10,
+					"template": "10"
+				},
+				{
+					"title": "While and do loops",
+					"order": 11,
+					"template": "11"
+				},
+				{
+					"title": "Indenting code",
+					"order": 12,
+					"template": "12"
+				},
+				{
+					"title": "For loops",
+					"order": 13,
+					"template": "13"
+				},
+				{
+					"title": "Breaking out of a loop",
+					"order": 14,
+					"template": "14"
+				},
+				{
+					"title": "Updating variables succintly",
+					"order": 15,
+					"template": "15"
+				},
+				{
+					"title": "Dispatching on a value with switch",
+					"order": 16,
+					"template": "16"
+				},
+				{
+					"title": "Capitalization",
+					"order": 17,
+					"template": "17"
+				},
+				{
+					"title": "Comments",
+					"order": 18,
+					"template": "18"
+				},
+				{
+					"title": "Summary",
+					"order": 19,
+					"template": "19"
+				},
+				{
+					"title": "Exercises",
+					"order": 20,
+					"template": "20"
+				}
+			]
+		}
+	]
+},
+{
+	"name": "Eloquent C#",
+	"chapters": [{
+			"title": "Introduction",
+			"order": 0,
+			"pages": [{
+					"title": "Introduction",
+					"order": 0,
+					"template": "0"
+				},
+				{
+					"title": "On Programming",
+					"order": 1,
+					"template": "1"
+				}, {
+					"title": "What is Javascript?",
+					"order": 2,
+					"template": "2"
+				},
+				{
+					"title": "Code, and what to do with it",
+					"order": 3,
+					"template": "3"
+				},
+				{
+					"title": "Overview of this book",
+					"order": 4,
+					"template": "4"
+				},
+				{
+					"title": "Typographic conventions",
+					"order": 5,
+					"template": "5"
+				}
+			]
+		},
+		{
+			"title": "Values, types and Operators",
+			"order": 1,
+			"pages": [{
+					"title": "Values, types and Operators",
+					"order": 0,
+					"template": "0"
+				},
+				{
+					"title": "Values",
+					"order": 1,
+					"template": "1"
+				}, {
+					"title": "Numbers",
+					"order": 2,
+					"template": "2"
+				},
+				{
+					"title": "Strings",
+					"order": 3,
+					"template": "3"
+				},
+				{
+					"title": "Unary operators",
+					"order": 4,
+					"template": "4"
+				},
+				{
+					"title": "Boolean values",
+					"order": 5,
+					"template": "5"
+				},
+				{
+					"title": "Unified values",
+					"order": 6,
+					"template": "6"
+				},
+				{
+					"title": "Summary",
+					"order": 7,
+					"template": "7"
+				}
+			]
+		},
+		{
+			"title": "Program Structure",
+			"order": 2,
+			"pages": [{
+					"title": "Program Structure",
+					"order": 0,
+					"template": "0"
+				},
+				{
+					"title": "Expressions and Statements",
+					"order": 1,
+					"template": "1"
+				}, {
+					"title": "Variables",
+					"order": 2,
+					"template": "2"
+				},
+				{
+					"title": "Keywords and reserved words",
+					"order": 3,
+					"template": "3"
+				},
+				{
+					"title": "The Environment",
+					"order": 4,
+					"template": "4"
+				},
+				{
+					"title": "Functions",
+					"order": 5,
+					"template": "5"
+				},
+				{
+					"title": "The console.log() function",
+					"order": 6,
+					"template": "6"
+				},
+				{
+					"title": "Return values",
+					"order": 7,
+					"template": "7"
+				},
+				{
+					"title": "Prompt and confirm",
+					"order": 8,
+					"template": "8"
+				},
+				{
+					"title": "Control flow",
+					"order": 9,
+					"template": "9"
+				},
+				{
+					"title": "Conditional execution",
+					"order": 10,
+					"template": "10"
+				},
+				{
+					"title": "While and do loops",
+					"order": 11,
+					"template": "11"
+				},
+				{
+					"title": "Indenting code",
+					"order": 12,
+					"template": "12"
+				},
+				{
+					"title": "For loops",
+					"order": 13,
+					"template": "13"
+				},
+				{
+					"title": "Breaking out of a loop",
+					"order": 14,
+					"template": "14"
+				},
+				{
+					"title": "Updating variables succintly",
+					"order": 15,
+					"template": "15"
+				},
+				{
+					"title": "Dispatching on a value with switch",
+					"order": 16,
+					"template": "16"
+				},
+				{
+					"title": "Capitalization",
+					"order": 17,
+					"template": "17"
+				},
+				{
+					"title": "Comments",
+					"order": 18,
+					"template": "18"
+				},
+				{
+					"title": "Summary",
+					"order": 19,
+					"template": "19"
+				},
+				{
+					"title": "Exercises",
+					"order": 20,
+					"template": "20"
+				}
+			]
+		}
+	]
+}]
