@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Book } from '../book';
 import { DataService } from '../data-service.service';
 
 @Component({
@@ -10,8 +11,15 @@ export class NavigatorComponent implements OnInit {
 
   constructor(private dataService: DataService) { }
 
+  BOOKS: Book[];
+
+  getBooks() {
+    this.BOOKS = this.dataService.getBooks();
+  }
+
   ngOnInit() {
-    this.dataService.getBooks();
+    this.getBooks();
+    console.log(this.BOOKS);
   }
 
 }
