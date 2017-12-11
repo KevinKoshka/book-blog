@@ -11,15 +11,14 @@ export class NavigatorComponent implements OnInit {
 
   constructor(private dataService: DataService) { }
 
-  BOOKS: Book[];
+  books: Book[];
 
   getBooks() {
-    this.BOOKS = this.dataService.getBooks();
+    this.books = this.dataService.getBooks();
   }
 
   ngOnInit() {
     this.getBooks();
-    console.log(this.BOOKS);
   }
 
 }
