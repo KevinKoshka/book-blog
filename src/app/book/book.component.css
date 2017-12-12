@@ -1,0 +1,6 @@
+.navigator {
+    max-width: 280px;
+}
+.navigator, .paginator {
+    background-color: rgb(214, 214, 214);
+}

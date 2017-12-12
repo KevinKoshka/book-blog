@@ -1,11 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { DataService } from './data-service.service';
 import { AppComponent } from './app.component';
 import { NavigatorComponent } from './navigator/navigator.component';
 import { PaginatorComponent } from './paginator/paginator.component';
 import { ArticleComponent } from './article/article.component';
+import { BookComponent } from './book/book.component';
 
 
 @NgModule({
@@ -13,10 +15,12 @@ import { ArticleComponent } from './article/article.component';
     AppComponent,
     NavigatorComponent,
     PaginatorComponent,
-    ArticleComponent
+    ArticleComponent,
+    BookComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule.forRoot()
   ],
   providers: [
     DataService
