@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import { of } from 'rxjs/observable/of';
 import { Book } from '../book';
 import { DataService } from '../data-service.service';
 
@@ -9,6 +11,12 @@ import { DataService } from '../data-service.service';
 })
 export class NavigatorComponent implements OnInit {
   @Input() books: Book[];
+
+  aBookId;
+
+  onSelect(page): void {
+    this.aBookId = page.id;
+  }
 
   constructor(private dataService: DataService) { }
 

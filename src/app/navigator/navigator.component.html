@@ -9,7 +9,7 @@
         <h4>{{ chapter.title }}</h4>
 
         <ol>
-          <li *ngFor="let page of chapter.pages">
+          <li *ngFor="let page of chapter.pages" (click)="onSelect(page)">
             <h5>{{ page.title }}</h5>
           </li>
         </ol>

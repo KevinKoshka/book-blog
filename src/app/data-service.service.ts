@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 import { Book } from './book';
-import DbMock from './db-mock.json';
+import indexMock from './index-mock.json';
 
 @Injectable()
 export class DataService {
 
   getBooks() {
-    const BOOKS: Book[] = DbMock;
+    const BOOKS: Book[] = indexMock;
     return BOOKS;
   }
 

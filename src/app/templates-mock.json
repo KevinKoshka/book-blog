@@ -1,0 +1,283 @@
+[
+  {
+    "id": "0000",
+    "template": "<p>This is a book about getting computers to do what you want them to do. Computers are about as common as screwdrivers today, but they contain a lot more hidden complexity and thus are harder to operate and understand. To many, they remain alien, slightly threatening things.</p>
+    <p>We’ve found two effective ways of bridging the communication gap between us, squishy biological organisms with a talent for social and spatial reasoning, and computers, unfeeling manipulators of meaningless data. The first is to appeal to our sense of the physical world and build interfaces that mimic that world and allow us to manipulate shapes on a screen with our fingers. This works very well for casual machine interaction.</p>
+    <p>But we have not yet found a good way to use the point-and-click approach to communicate things to the computer that the designer of the interface did not anticipate. For open-ended interfaces, such as instructing the computer to perform arbitrary tasks, we’ve had more luck with an approach that makes use of our talent for language: teaching the machine a language.</p>
+    <p>Human languages allow words and phrases to be combined in many ways, which allows us to say many different things. Computer languages, though typically less grammatically flexible, follow a similar principle.</p>
+    <p>Casual computing has become much more widespread in the past 20 years, and language-based interfaces, which once were the default way in which people interacted with computers, have largely been replaced with graphical interfaces. But they are still there, if you know where to look. One such language, JavaScript, is built into almost every web browser and is thus available on just about every consumer device.</p>
+    <p>This book intends to make you familiar enough with this language to be able to make a computer do what you want.</p>"
+  },
+  {
+    "id": "0001",
+    "template": "0001 template."
+  },
+  {
+    "id": "0002",
+    "template": "0002 template."
+  },
+  {
+    "id": "0003",
+    "template": "0003 template."
+  },
+  {
+    "id": "0004",
+    "template": "0004 template."
+  },
+  {
+    "id": "0005",
+    "template": "0005 template."
+  },
+  {
+    "id": "0006",
+    "template": "0006 template."
+  },
+  {
+    "id": "0007",
+    "template": "0007 template."
+  },
+  {
+    "id": "0008",
+    "template": "0008 template."
+  },
+  {
+    "id": "0009",
+    "template": "0009 template."
+  },
+  {
+    "id": "0010",
+    "template": "0010 template."
+  },
+  {
+    "id": "0011",
+    "template": "0011 template."
+  },
+  {
+    "id": "0012",
+    "template": "0012 template."
+  },
+  {
+    "id": "0013",
+    "template": "0013 template."
+  },
+  {
+    "id": "0014",
+    "template": "0014 template."
+  },
+  {
+    "id": "0015",
+    "template": "0015 template."
+  },
+  {
+    "id": "0016",
+    "template": "0016 template."
+  },
+  {
+    "id": "0017",
+    "template": "0017 template."
+  },
+  {
+    "id": "0018",
+    "template": "0018 template."
+  },
+  {
+    "id": "0019",
+    "template": "0019 template."
+  },
+  {
+    "id": "0020",
+    "template": "0020 template."
+  },
+  {
+    "id": "0021",
+    "template": "0021 template."
+  },
+  {
+    "id": "0022",
+    "template": "0022 template."
+  },
+  {
+    "id": "0023",
+    "template": "0023 template."
+  },
+  {
+    "id": "0024",
+    "template": "0024 template."
+  },
+  {
+    "id": "0025",
+    "template": "0025 template."
+  },
+  {
+    "id": "0026",
+    "template": "0026 template."
+  },
+  {
+    "id": "0027",
+    "template": "0027 template."
+  },
+  {
+    "id": "0028",
+    "template": "0028 template."
+  },
+  {
+    "id": "0029",
+    "template": "0029 template."
+  },
+  {
+    "id": "0030",
+    "template": "0030 template."
+  },
+  {
+    "id": "0031",
+    "template": "0031 template."
+  },
+  {
+    "id": "0032",
+    "template": "0032 template."
+  },
+  {
+    "id": "0033",
+    "template": "0033 template."
+  },
+  {
+    "id": "0034",
+    "template": "0034 template."
+  },
+  {
+    "id": "0035",
+    "template": "0035 template."
+  },
+  {
+    "id": "0036",
+    "template": "0036 template."
+  },
+  {
+    "id": "0037",
+    "template": "0037 template."
+  },
+  {
+    "id": "0038",
+    "template": "0038 template."
+  },
+  {
+    "id": "0039",
+    "template": "0039 template."
+  },
+  {
+    "id": "0040",
+    "template": "0040 template."
+  },
+  {
+    "id": "0041",
+    "template": "0041 template."
+  },
+  {
+    "id": "0042",
+    "template": "0042 template."
+  },
+  {
+    "id": "0043",
+    "template": "0043 template."
+  },
+  {
+    "id": "0044",
+    "template": "0044 template."
+  },
+  {
+    "id": "0045",
+    "template": "0045 template."
+  },
+  {
+    "id": "0046",
+    "template": "0046 template."
+  },
+  {
+    "id": "0047",
+    "template": "0047 template."
+  },
+  {
+    "id": "0048",
+    "template": "0048 template."
+  },
+  {
+    "id": "0049",
+    "template": "0049 template."
+  },
+  {
+    "id": "0050",
+    "template": "0050 template."
+  },
+  {
+    "id": "0051",
+    "template": "0051 template."
+  },
+  {
+    "id": "0052",
+    "template": "0052 template."
+  },
+  {
+    "id": "0053",
+    "template": "0053 template."
+  },
+  {
+    "id": "0054",
+    "template": "0054 template."
+  },
+  {
+    "id": "0055",
+    "template": "0055 template."
+  },
+  {
+    "id": "0056",
+    "template": "0056 template."
+  },
+  {
+    "id": "0057",
+    "template": "0057 template."
+  },
+  {
+    "id": "0058",
+    "template": "0058 template."
+  },
+  {
+    "id": "0059",
+    "template": "0059 template."
+  },
+  {
+    "id": "0060",
+    "template": "0060 template."
+  },
+  {
+    "id": "0061",
+    "template": "0061 template."
+  },
+  {
+    "id": "0062",
+    "template": "0062 template."
+  },
+  {
+    "id": "0063",
+    "template": "0063 template."
+  },
+  {
+    "id": "0064",
+    "template": "0064 template."
+  },
+  {
+    "id": "0065",
+    "template": "0065 template."
+  },
+  {
+    "id": "0066",
+    "template": "0066 template."
+  },
+  {
+    "id": "0067",
+    "template": "0067 template."
+  },
+  {
+    "id": "0068",
+    "template": "0068 template."
+  }
+]
