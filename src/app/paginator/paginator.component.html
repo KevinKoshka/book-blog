@@ -1,4 +1,6 @@
 <div>
     <h3>paginator works!</h3>
-    <app-article></app-article>
+    <app-article (articleChange)="onArticleChange($event)"></app-article>
+    <button (click)="onPageTurn(-1)">Previous</button>
+    <button (click)="onPageTurn(1)">Next</button>
 </div>

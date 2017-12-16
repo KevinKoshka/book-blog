@@ -39,41 +39,41 @@
 			"order": 1,
 			"pages": [{
 					"title": "Values, types and Operators",
-					"order": 0,
+					"order": 6,
 					"id": "0006"
 				},
 				{
 					"title": "Values",
-					"order": 1,
+					"order": 7,
 					"id": "0007"
 				}, {
 					"title": "Numbers",
-					"order": 2,
+					"order": 8,
 					"id": "0008"
 				},
 				{
 					"title": "Strings",
-					"order": 3,
+					"order": 9,
 					"id": "0009"
 				},
 				{
 					"title": "Unary operators",
-					"order": 4,
+					"order": 10,
 					"id": "0010"
 				},
 				{
 					"title": "Boolean values",
-					"order": 5,
+					"order": 11,
 					"id": "0011"
 				},
 				{
 					"title": "Unified values",
-					"order": 6,
+					"order": 12,
 					"id": "0012"
 				},
 				{
 					"title": "Summary",
-					"order": 7,
+					"order": 13,
 					"id": "0013"
 				}
 			]
@@ -83,107 +83,107 @@
 			"order": 2,
 			"pages": [{
 					"title": "Program Structure",
-					"order": 0,
+					"order": 14,
 					"id": "0014"
 				},
 				{
 					"title": "Expressions and Statements",
-					"order": 1,
+					"order": 15,
 					"id": "0015"
 				},
 				{
 					"title": "Variables",
-					"order": 2,
+					"order": 16,
 					"id": "0016"
 				},
 				{
 					"title": "Keywords and reserved words",
-					"order": 3,
+					"order": 17,
 					"id": "0017"
 				},
 				{
 					"title": "The Environment",
-					"order": 4,
+					"order": 18,
 					"id": "0018"
 				},
 				{
 					"title": "Functions",
-					"order": 5,
+					"order": 19,
 					"id": "0019"
 				},
 				{
 					"title": "The console.log() function",
-					"order": 6,
+					"order": 20,
 					"id": "0020"
 				},
 				{
 					"title": "Return values",
-					"order": 7,
+					"order": 21,
 					"id": "0021"
 				},
 				{
 					"title": "Prompt and confirm",
-					"order": 8,
+					"order": 22,
 					"id": "0022"
 				},
 				{
 					"title": "Control flow",
-					"order": 9,
+					"order": 23,
 					"id": "0023"
 				},
 				{
 					"title": "Conditional execution",
-					"order": 10,
+					"order": 24,
 					"id": "0024"
 				},
 				{
 					"title": "While and do loops",
-					"order": 11,
+					"order": 25,
 					"id": "0025"
 				},
 				{
 					"title": "Indenting code",
-					"order": 12,
+					"order": 26,
 					"id": "0026"
 				},
 				{
 					"title": "For loops",
-					"order": 13,
+					"order": 27,
 					"id": "0027"
 				},
 				{
 					"title": "Breaking out of a loop",
-					"order": 14,
+					"order": 28,
 					"id": "0028"
 				},
 				{
 					"title": "Updating variables succintly",
-					"order": 15,
+					"order": 29,
 					"id": "0029"
 				},
 				{
 					"title": "Dispatching on a value with switch",
-					"order": 16,
+					"order": 30,
 					"id": "0030"
 				},
 				{
 					"title": "Capitalization",
-					"order": 17,
+					"order": 31,
 					"id": "0031"
 				},
 				{
 					"title": "Comments",
-					"order": 18,
+					"order": 32,
 					"id": "0032"
 				},
 				{
 					"title": "Summary",
-					"order": 19,
+					"order": 33,
 					"id": "0033"
 				},
 				{
 					"title": "Exercises",
-					"order": 20,
+					"order": 34,
 					"id": "0034"
 				}
 			]
@@ -231,41 +231,41 @@
 			"order": 1,
 			"pages": [{
 					"title": "Values, types and Operators",
-					"order": 0,
+					"order": 6,
 					"id": "0040"
 				},
 				{
 					"title": "Values",
-					"order": 1,
+					"order": 7,
 					"id": "0041"
 				}, {
 					"title": "Numbers",
-					"order": 2,
+					"order": 8,
 					"id": "0042"
 				},
 				{
 					"title": "Strings",
-					"order": 3,
+					"order": 9,
 					"id": "0043"
 				},
 				{
 					"title": "Unary operators",
-					"order": 4,
+					"order": 10,
 					"id": "0044"
 				},
 				{
 					"title": "Boolean values",
-					"order": 5,
+					"order": 11,
 					"id": "0045"
 				},
 				{
 					"title": "Unified values",
-					"order": 6,
+					"order": 12,
 					"id": "0046"
 				},
 				{
 					"title": "Summary",
-					"order": 7,
+					"order": 13,
 					"id": "0047"
 				}
 			]
@@ -275,106 +275,106 @@
 			"order": 2,
 			"pages": [{
 					"title": "Program Structure",
-					"order": 0,
+					"order": 14,
 					"id": "0048"
 				},
 				{
 					"title": "Expressions and Statements",
-					"order": 1,
+					"order": 15,
 					"id": "0049"
 				}, {
 					"title": "Variables",
-					"order": 2,
+					"order": 16,
 					"id": "0050"
 				},
 				{
 					"title": "Keywords and reserved words",
-					"order": 3,
+					"order": 17,
 					"id": "0051"
 				},
 				{
 					"title": "The Environment",
-					"order": 4,
+					"order": 18,
 					"id": "0052"
 				},
 				{
 					"title": "Functions",
-					"order": 5,
+					"order": 19,
 					"id": "0053"
 				},
 				{
 					"title": "The console.log() function",
-					"order": 6,
+					"order": 20,
 					"id": "0054"
 				},
 				{
 					"title": "Return values",
-					"order": 7,
+					"order": 21,
 					"id": "0055"
 				},
 				{
 					"title": "Prompt and confirm",
-					"order": 8,
+					"order": 22,
 					"id": "0056"
 				},
 				{
 					"title": "Control flow",
-					"order": 9,
+					"order": 23,
 					"id": "0057"
 				},
 				{
 					"title": "Conditional execution",
-					"order": 10,
+					"order": 24,
 					"id": "0058"
 				},
 				{
 					"title": "While and do loops",
-					"order": 11,
+					"order": 25,
 					"id": "0059"
 				},
 				{
 					"title": "Indenting code",
-					"order": 12,
+					"order": 26,
 					"id": "0060"
 				},
 				{
 					"title": "For loops",
-					"order": 13,
+					"order": 27,
 					"id": "0061"
 				},
 				{
 					"title": "Breaking out of a loop",
-					"order": 14,
+					"order": 28,
 					"id": "0062"
 				},
 				{
 					"title": "Updating variables succintly",
-					"order": 15,
+					"order": 29,
 					"id": "0063"
 				},
 				{
 					"title": "Dispatching on a value with switch",
-					"order": 16,
+					"order": 30,
 					"id": "0064"
 				},
 				{
 					"title": "Capitalization",
-					"order": 17,
+					"order": 31,
 					"id": "0065"
 				},
 				{
 					"title": "Comments",
-					"order": 18,
+					"order": 32,
 					"id": "0066"
 				},
 				{
 					"title": "Summary",
-					"order": 19,
+					"order": 33,
 					"id": "0067"
 				},
 				{
 					"title": "Exercises",
-					"order": 20,
+					"order": 34,
 					"id": "0068"
 				}
 			]

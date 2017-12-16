@@ -1,14 +1,16 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
-import { of } from 'rxjs/observable/of';
+import { Subject } from 'rxjs/Subject';
+
+import { Article } from './article';
 
 @Injectable()
 export class ObService {
+  //Subject que mantiene la lista de observadores
+  private clickedPageSource = new Subject<Article>();
 
-  clickedPage(id: string): Observable<string> {
-    return of(id);
+  clickedPage$ = this.clickedPageSource.asObservable();
+
+  clickPage(article: Article) {
+    this.clickedPageSource.next(article);
   }
-
-  constructor() { }
-
 }
