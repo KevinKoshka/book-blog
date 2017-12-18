@@ -37,8 +37,9 @@ export class PaginatorComponent implements OnInit {
     let theBook = _.find(this.books,['name', this.currentTitle]);
     _.forEach(theBook.chapters, (cVal, cIndex, cCollection) => {
       let x = _.find(cVal.pages, (pVal, pIndex, pCollection) => {
-        if(pVal.order == (this.currentOrder + where)) {
-          if(((pIndex === pCollection.length) && (cIndex === cCollection.length)) && (this.button.nextDisabled === false)) {
+        if(pVal.order === (this.currentOrder + where)) {
+          console.log('pIndex = ' + pIndex + ' pCollection = ' + (pCollection.length - 1) + ' cIndex = ' + cIndex + ' cCollection = ' + (cCollection.length - 1));
+          if(((pIndex === pCollection.length - 1) && (cIndex === cCollection.length - 1)) && (this.button.nextDisabled === false)) {
             this.button.nextDisabled = true;
           } else if(this.button.nextDisabled) {
             this.button.nextDisabled = false;
@@ -51,7 +52,7 @@ export class PaginatorComponent implements OnInit {
           return true;
         }
       });
-      if (x != undefined) {
+      if ((x != undefined) && ((this.currentOrder + where) >= 0)) {
         this.currentOrder = x.order;
         this.article = {
           title: theBook.name,
