@@ -10,6 +10,8 @@ import { PaginatorComponent } from './paginator/paginator.component';
 import { ArticleComponent } from './article/article.component';
 import { BookComponent } from './book/book.component';
 
+import { AppRoutingModule } from './app-routing.module';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { BookComponent } from './book/book.component';
   ],
   imports: [
     BrowserModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    AppRoutingModule
   ],
   providers: [
     DataService,

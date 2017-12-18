@@ -10,7 +10,7 @@
 
         <ol>
           <li *ngFor="let page of chapter.pages" (click)="onSelect(book.name, chapter.title, page.title, page.id, page.order)">
-            <h5>{{ page.title }}</h5>
+            <a routerLink="/articles/{{page.id}}"><h5>{{ page.title }}</h5></a>
           </li>
         </ol>
 
