@@ -6,7 +6,7 @@ export class Book {
     pages: Array<{
       title: string,
       order: number,
-      template: string
+      id: string
     }>
   }>
 };

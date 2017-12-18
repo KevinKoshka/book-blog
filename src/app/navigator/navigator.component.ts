@@ -20,7 +20,7 @@ export class NavigatorComponent implements OnInit {
   onSelect(title, chapter, subtitle, id, order): void {
     this.aBook = {
       title : title,
-      chapter: chapter,
+      chapter: chapter, 
       subtitle: subtitle,
       template: '',
       id: id,
