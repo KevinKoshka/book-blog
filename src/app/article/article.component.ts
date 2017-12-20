@@ -18,10 +18,11 @@ export class ArticleComponent implements OnInit {
     subtitle: '',
     template: '',
     id: '',
-    order: undefined
+    order: undefined,
+    pages: undefined
   }
   
-  @Output() articleChange = new EventEmitter<{title: string, order: number}>();
+  @Output() articleChange = new EventEmitter<{title: string, order: number, pages: number}>();
 
   constructor(
     private obService: ObService,
@@ -31,7 +32,7 @@ export class ArticleComponent implements OnInit {
       article => {
         this.article = article;
         this.article.template = dataService.getArticle(article.id).template;
-        this.articleChange.emit({title: this.article.title, order: this.article.order});
+        this.articleChange.emit({title: this.article.title, order: this.article.order, pages: this.article.pages});
       }
     );
   }

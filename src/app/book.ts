@@ -1,5 +1,6 @@
 export class Book {
   name: string;
+  pages: number;
   chapters: Array<{
     title: string,
     order: number,

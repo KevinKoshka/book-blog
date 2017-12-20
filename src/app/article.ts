@@ -5,4 +5,5 @@ export class Article {
   template: string;
   id: string;
   order: number;
+  pages: number;
 }

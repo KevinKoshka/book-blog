@@ -2,13 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { BookComponent } from './book/book.component';
-import { PaginatorComponent } from './paginator/paginator.component';
+import { ArticleComponent } from './article/article.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/articles', pathMatch: 'full' },
-  { path: 'articles', component: BookComponent },
-  { path: 'articles/:id', component: PaginatorComponent }
+  { path: '', redirectTo: '/articles/0000', pathMatch: 'full' },
+  { path: 'articles', component: BookComponent, children: [
+    { path: ':id', component: ArticleComponent }
+  ]},
 ];
 
 @NgModule({

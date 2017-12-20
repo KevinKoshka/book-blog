@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import * as _ from 'lodash';
+import { Router, NavigationEnd } from '@angular/router';
 
 import { Book } from '../book';
 import { Article } from '../article';
@@ -13,15 +14,17 @@ import { DataService } from '../data-service.service';
 })
 export class PaginatorComponent implements OnInit {
   @Input() books: Book[];
-  currentTitle: string;
+/*   currentTitle: string;
   currentOrder: number;
+  currentPages: number; */
   article: Article = {
     title: '',
     chapter: '',
     subtitle: '',
     template: '',
     id: '',
-    order: undefined
+    order: undefined,
+    pages: undefined
   };
   button = {
     nextDisabled: false,
@@ -29,16 +32,17 @@ export class PaginatorComponent implements OnInit {
   }
 
   onArticleChange(event) {
+/*     alert('hola');
     this.currentTitle = event.title;
     this.currentOrder = event.order;
+    this.currentPages = event.pages; */
   }
 
-  onPageTurn(where: number) {
+  onPageTurn(where: number) {/* 
     let theBook = _.find(this.books,['name', this.currentTitle]);
     _.forEach(theBook.chapters, (cVal, cIndex, cCollection) => {
       let x = _.find(cVal.pages, (pVal, pIndex, pCollection) => {
         if(pVal.order === (this.currentOrder + where)) {
-          console.log('pIndex = ' + pIndex + ' pCollection = ' + (pCollection.length - 1) + ' cIndex = ' + cIndex + ' cCollection = ' + (cCollection.length - 1));
           if(((pIndex === pCollection.length - 1) && (cIndex === cCollection.length - 1)) && (this.button.nextDisabled === false)) {
             this.button.nextDisabled = true;
           } else if(this.button.nextDisabled) {
@@ -60,22 +64,33 @@ export class PaginatorComponent implements OnInit {
           subtitle: x.title,
           template: '',
           id: x.id,
-          order: x.order
+          order: x.order,
+          pages: theBook.pages
         }
         this.article.template = this.dataService.getArticle(this.article.id).template;
         this.obService.clickPage(this.article);
-        console.log(this.article);
         return false;
       } else {
         return true;
       }
-    });
+    }); */
   }
 
   constructor(
     private obService: ObService,
-    private dataService: DataService
-  ) { }
+    private dataService: DataService,
+    private router: Router
+  ) {
+    router.events.subscribe(
+      (val) => {
+        if(val instanceof NavigationEnd) {
+          let id = val.url.slice(val.url.lastIndexOf('/articles/'));
+          //this.article = this.dataService.getArticleInfo(id);
+          console.log(id);
+        }
+      }
+    );
+   }
 
   ngOnInit() {
   }

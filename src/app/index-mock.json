@@ -1,5 +1,6 @@
 [{
 	"name": "Eloquent Javascript",
+	"pages": 35,
 	"chapters": [{
 			"title": "Introduction",
 			"order": 0,
@@ -192,6 +193,7 @@
 },
 {
 	"name": "Eloquent C#",
+	"pages": 35,
 	"chapters": [{
 			"title": "Introduction",
 			"order": 0,

@@ -17,14 +17,15 @@ export class NavigatorComponent implements OnInit {
 
   aBook: Article;
 
-  onSelect(title, chapter, subtitle, id, order): void {
+  onSelect(title, chapter, subtitle, id, order, pages): void {
     this.aBook = {
       title : title,
       chapter: chapter, 
       subtitle: subtitle,
       template: '',
       id: id,
-      order: order
+      order: order,
+      pages: pages
     };
     this.obService.clickPage(this.aBook);
   }
