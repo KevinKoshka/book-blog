@@ -20,7 +20,7 @@ export class DataService {
     return TEMPLATE;
   }
 
-  getArticleInfo(id: string): Article {
+  getArticleInfo(id: string): Article | Error {
     let bookCollection = this.getBooks();
     let article: Article;
     let searchResult: boolean = !_.every( bookCollection, 
@@ -46,7 +46,13 @@ export class DataService {
         )
       }
     );
-    return article;
+    if(searchResult) {
+      return article;
+    } else {
+      console.error('Error: Article id not found.');
+      return new Error('Error: Article id not found.');
+    }
+    
   }
 
   getArticleByOrder(bookName: string, order: number) {

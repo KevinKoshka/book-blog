@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 
 import { ObService} from '../ob-service.service';
 import { DataService } from '../data-service.service';
@@ -24,12 +24,19 @@ export class ArticleComponent implements OnInit {
   constructor(
     private dataService: DataService,
     private obService: ObService,
-    private router: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private router: Router
   ) {
-    this.router.params.subscribe((params) => {
-      this.article = this.dataService.getArticleInfo(params.id);
-      this.obService.clickPage(this.article);
-    })
+    this.activatedRoute.params.subscribe((params) => {
+      let article: Article | Error = this.dataService.getArticleInfo(params.id);
+      if(article instanceof Article) {
+        this.article = article;
+        //Dispara y envía info a los suscriptores.
+        this.obService.clickPage(this.article);
+      } else if(article instanceof Error) {
+        this.router.navigate(['articles', 'articleNotFound']);
+      }
+    });
   }
 
   ngOnInit() {

@@ -47,6 +47,7 @@ export class PaginatorComponent implements OnInit {
     private dataService: DataService,
     private router: Router
   ) {
+    //Toma la data cuando hay cambio de página.
     this.subscription = obService.clickedPage$.subscribe(
       article => {
         this.currentOrder = article.order;
