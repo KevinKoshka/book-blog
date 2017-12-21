@@ -1,7 +1,7 @@
-import { Component, OnInit, EventEmitter, Output } from '@angular/core';
-import { Subscription } from 'rxjs/Subscription';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
-import { ObService } from '../ob-service.service';
+import { ObService} from '../ob-service.service';
 import { DataService } from '../data-service.service';
 import { Article } from '../article';
 
@@ -11,7 +11,6 @@ import { Article } from '../article';
   styleUrls: ['./article.component.css']
 })
 export class ArticleComponent implements OnInit {
-  subscription: Subscription;
   article: Article = {
     title: '',
     chapter: '',
@@ -22,19 +21,15 @@ export class ArticleComponent implements OnInit {
     pages: undefined
   }
   
-  @Output() articleChange = new EventEmitter<{title: string, order: number, pages: number}>();
-
   constructor(
+    private dataService: DataService,
     private obService: ObService,
-    private dataService: DataService
+    private router: ActivatedRoute
   ) {
-    this.subscription = obService.clickedPage$.subscribe(
-      article => {
-        this.article = article;
-        this.article.template = dataService.getArticle(article.id).template;
-        this.articleChange.emit({title: this.article.title, order: this.article.order, pages: this.article.pages});
-      }
-    );
+    this.router.params.subscribe((params) => {
+      this.article = this.dataService.getArticleInfo(params.id);
+      this.obService.clickPage(this.article);
+    })
   }
 
   ngOnInit() {

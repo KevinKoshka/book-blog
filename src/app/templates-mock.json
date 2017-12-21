@@ -1,281 +1,281 @@
 [{
-  "id": "0000",
+  "id": "0000a",
   "template": "<p>This is a book about getting computers to do what you want them to do. Computers are about as common as screwdrivers today, but they contain a lot more hidden complexity and thus are harder to operate and understand. To many, they remain alien, slightly threatening things.</p><p>We’ve found two effective ways of bridging the communication gap between us, squishy biological organisms with a talent for social and spatial reasoning, and computers, unfeeling manipulators of meaningless data. The first is to appeal to our sense of the physical world and build interfaces that mimic that world and allow us to manipulate shapes on a screen with our fingers. This works very well for casual machine interaction.</p><p>But we have not yet found a good way to use the point-and-click approach to communicate things to the computer that the designer of the interface did not anticipate. For open-ended interfaces, such as instructing the computer to perform arbitrary tasks, we’ve had more luck with an approach that makes use of our talent for language: teaching the machine a language.</p><p>Human languages allow words and phrases to be combined in many ways, which allows us to say many different things. Computer languages, though typically less grammatically flexible, follow a similar principle.</p><p>Casual computing has become much more widespread in the past 20 years, and language-based interfaces, which once were the default way in which people interacted with computers, have largely been replaced with graphical interfaces. But they are still there, if you know where to look. One such language, JavaScript, is built into almost every web browser and is thus available on just about every consumer device.</p><p>This book intends to make you familiar enough with this language to be able to make a computer do what you want.</p>"
 },
 {
-  "id": "0001",
+  "id": "0001a",
   "template": "0001 template."
 },
 {
-  "id": "0002",
+  "id": "0002a",
   "template": "0002 template."
 },
 {
-  "id": "0003",
+  "id": "0003a",
   "template": "0003 template."
 },
 {
-  "id": "0004",
+  "id": "0004a",
   "template": "0004 template."
 },
 {
-  "id": "0005",
+  "id": "0005a",
   "template": "0005 template."
 },
 {
-  "id": "0006",
+  "id": "0006a",
   "template": "0006 template."
 },
 {
-  "id": "0007",
+  "id": "0007a",
   "template": "0007 template."
 },
 {
-  "id": "0008",
+  "id": "0008a",
   "template": "0008 template."
 },
 {
-  "id": "0009",
+  "id": "0009a",
   "template": "0009 template."
 },
 {
-  "id": "0010",
+  "id": "0010a",
   "template": "0010 template."
 },
 {
-  "id": "0011",
+  "id": "0011a",
   "template": "0011 template."
 },
 {
-  "id": "0012",
+  "id": "0012a",
   "template": "0012 template."
 },
 {
-  "id": "0013",
+  "id": "0013a",
   "template": "0013 template."
 },
 {
-  "id": "0014",
+  "id": "0014a",
   "template": "0014 template."
 },
 {
-  "id": "0015",
+  "id": "0015a",
   "template": "0015 template."
 },
 {
-  "id": "0016",
+  "id": "0016a",
   "template": "0016 template."
 },
 {
-  "id": "0017",
+  "id": "0017a",
   "template": "0017 template."
 },
 {
-  "id": "0018",
+  "id": "0018a",
   "template": "0018 template."
 },
 {
-  "id": "0019",
+  "id": "0019a",
   "template": "0019 template."
 },
 {
-  "id": "0020",
+  "id": "0020a",
   "template": "0020 template."
 },
 {
-  "id": "0021",
+  "id": "0021a",
   "template": "0021 template."
 },
 {
-  "id": "0022",
+  "id": "0022a",
   "template": "0022 template."
 },
 {
-  "id": "0023",
+  "id": "0023a",
   "template": "0023 template."
 },
 {
-  "id": "0024",
+  "id": "0024a",
   "template": "0024 template."
 },
 {
-  "id": "0025",
+  "id": "0025a",
   "template": "0025 template."
 },
 {
-  "id": "0026",
+  "id": "0026a",
   "template": "0026 template."
 },
 {
-  "id": "0027",
+  "id": "0027a",
   "template": "0027 template."
 },
 {
-  "id": "0028",
+  "id": "0028a",
   "template": "0028 template."
 },
 {
-  "id": "0029",
+  "id": "0029a",
   "template": "0029 template."
 },
 {
-  "id": "0030",
+  "id": "0030a",
   "template": "0030 template."
 },
 {
-  "id": "0031",
+  "id": "0031a",
   "template": "0031 template."
 },
 {
-  "id": "0032",
+  "id": "0032a",
   "template": "0032 template."
 },
 {
-  "id": "0033",
+  "id": "0033a",
   "template": "0033 template."
 },
 {
-  "id": "0034",
+  "id": "0034a",
   "template": "0034 template."
 },
 {
-  "id": "0035",
+  "id": "0035a",
   "template": "0035 template."
 },
 {
-  "id": "0036",
+  "id": "0036a",
   "template": "0036 template."
 },
 {
-  "id": "0037",
+  "id": "0037a",
   "template": "0037 template."
 },
 {
-  "id": "0038",
+  "id": "0038a",
   "template": "0038 template."
 },
 {
-  "id": "0039",
+  "id": "0039a",
   "template": "0039 template."
 },
 {
-  "id": "0040",
+  "id": "0040a",
   "template": "0040 template."
 },
 {
-  "id": "0041",
+  "id": "0041a",
   "template": "0041 template."
 },
 {
-  "id": "0042",
+  "id": "0042a",
   "template": "0042 template."
 },
 {
-  "id": "0043",
+  "id": "0043a",
   "template": "0043 template."
 },
 {
-  "id": "0044",
+  "id": "0044a",
   "template": "0044 template."
 },
 {
-  "id": "0045",
+  "id": "0045a",
   "template": "0045 template."
 },
 {
-  "id": "0046",
+  "id": "0046a",
   "template": "0046 template."
 },
 {
-  "id": "0047",
+  "id": "0047a",
   "template": "0047 template."
 },
 {
-  "id": "0048",
+  "id": "0048a",
   "template": "0048 template."
 },
 {
-  "id": "0049",
+  "id": "0049a",
   "template": "0049 template."
 },
 {
-  "id": "0050",
+  "id": "0050a",
   "template": "0050 template."
 },
 {
-  "id": "0051",
+  "id": "0051a",
   "template": "0051 template."
 },
 {
-  "id": "0052",
+  "id": "0052a",
   "template": "0052 template."
 },
 {
-  "id": "0053",
+  "id": "0053a",
   "template": "0053 template."
 },
 {
-  "id": "0054",
+  "id": "0054a",
   "template": "0054 template."
 },
 {
-  "id": "0055",
+  "id": "0055a",
   "template": "0055 template."
 },
 {
-  "id": "0056",
+  "id": "0056a",
   "template": "0056 template."
 },
 {
-  "id": "0057",
+  "id": "0057a",
   "template": "0057 template."
 },
 {
-  "id": "0058",
+  "id": "0058a",
   "template": "0058 template."
 },
 {
-  "id": "0059",
+  "id": "0059a",
   "template": "0059 template."
 },
 {
-  "id": "0060",
+  "id": "0060a",
   "template": "0060 template."
 },
 {
-  "id": "0061",
+  "id": "0061a",
   "template": "0061 template."
 },
 {
-  "id": "0062",
+  "id": "0062a",
   "template": "0062 template."
 },
 {
-  "id": "0063",
+  "id": "0063a",
   "template": "0063 template."
 },
 {
-  "id": "0064",
+  "id": "0064a",
   "template": "0064 template."
 },
 {
-  "id": "0065",
+  "id": "0065a",
   "template": "0065 template."
 },
 {
-  "id": "0066",
+  "id": "0066a",
   "template": "0066 template."
 },
 {
-  "id": "0067",
+  "id": "0067a",
   "template": "0067 template."
 },
 {
-  "id": "0068",
+  "id": "0068a",
   "template": "0068 template."
 },
 {
-  "id": "0069",
+  "id": "0069a",
   "template": "0069 template."
 }
 ]

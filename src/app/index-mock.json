@@ -7,31 +7,31 @@
 			"pages": [{
 					"title": "Introduction",
 					"order": 0,
-					"id": "0000"
+					"id": "0000a"
 				},
 				{
 					"title": "On Programming",
 					"order": 1,
-					"id": "0001"
+					"id": "0001a"
 				}, {
 					"title": "What is Javascript?",
 					"order": 2,
-					"id": "0002"
+					"id": "0002a"
 				},
 				{
 					"title": "Code, and what to do with it",
 					"order": 3,
-					"id": "0003"
+					"id": "0003a"
 				},
 				{
 					"title": "Overview of this book",
 					"order": 4,
-					"id": "0004"
+					"id": "0004a"
 				},
 				{
 					"title": "Typographic conventions",
 					"order": 5,
-					"id": "0005"
+					"id": "0005a"
 				}
 			]
 		},
@@ -41,41 +41,41 @@
 			"pages": [{
 					"title": "Values, types and Operators",
 					"order": 6,
-					"id": "0006"
+					"id": "0006a"
 				},
 				{
 					"title": "Values",
 					"order": 7,
-					"id": "0007"
+					"id": "0007a"
 				}, {
 					"title": "Numbers",
 					"order": 8,
-					"id": "0008"
+					"id": "0008a"
 				},
 				{
 					"title": "Strings",
 					"order": 9,
-					"id": "0009"
+					"id": "0009a"
 				},
 				{
 					"title": "Unary operators",
 					"order": 10,
-					"id": "0010"
+					"id": "0010a"
 				},
 				{
 					"title": "Boolean values",
 					"order": 11,
-					"id": "0011"
+					"id": "0011a"
 				},
 				{
 					"title": "Unified values",
 					"order": 12,
-					"id": "0012"
+					"id": "0012a"
 				},
 				{
 					"title": "Summary",
 					"order": 13,
-					"id": "0013"
+					"id": "0013a"
 				}
 			]
 		},
@@ -85,107 +85,107 @@
 			"pages": [{
 					"title": "Program Structure",
 					"order": 14,
-					"id": "0014"
+					"id": "0014a"
 				},
 				{
 					"title": "Expressions and Statements",
 					"order": 15,
-					"id": "0015"
+					"id": "0015a"
 				},
 				{
 					"title": "Variables",
 					"order": 16,
-					"id": "0016"
+					"id": "0016a"
 				},
 				{
 					"title": "Keywords and reserved words",
 					"order": 17,
-					"id": "0017"
+					"id": "0017a"
 				},
 				{
 					"title": "The Environment",
 					"order": 18,
-					"id": "0018"
+					"id": "0018a"
 				},
 				{
 					"title": "Functions",
 					"order": 19,
-					"id": "0019"
+					"id": "0019a"
 				},
 				{
 					"title": "The console.log() function",
 					"order": 20,
-					"id": "0020"
+					"id": "0020a"
 				},
 				{
 					"title": "Return values",
 					"order": 21,
-					"id": "0021"
+					"id": "0021a"
 				},
 				{
 					"title": "Prompt and confirm",
 					"order": 22,
-					"id": "0022"
+					"id": "0022a"
 				},
 				{
 					"title": "Control flow",
 					"order": 23,
-					"id": "0023"
+					"id": "0023a"
 				},
 				{
 					"title": "Conditional execution",
 					"order": 24,
-					"id": "0024"
+					"id": "0024a"
 				},
 				{
 					"title": "While and do loops",
 					"order": 25,
-					"id": "0025"
+					"id": "0025a"
 				},
 				{
 					"title": "Indenting code",
 					"order": 26,
-					"id": "0026"
+					"id": "0026a"
 				},
 				{
 					"title": "For loops",
 					"order": 27,
-					"id": "0027"
+					"id": "0027a"
 				},
 				{
 					"title": "Breaking out of a loop",
 					"order": 28,
-					"id": "0028"
+					"id": "0028a"
 				},
 				{
 					"title": "Updating variables succintly",
 					"order": 29,
-					"id": "0029"
+					"id": "0029a"
 				},
 				{
 					"title": "Dispatching on a value with switch",
 					"order": 30,
-					"id": "0030"
+					"id": "0030a"
 				},
 				{
 					"title": "Capitalization",
 					"order": 31,
-					"id": "0031"
+					"id": "0031a"
 				},
 				{
 					"title": "Comments",
 					"order": 32,
-					"id": "0032"
+					"id": "0032a"
 				},
 				{
 					"title": "Summary",
 					"order": 33,
-					"id": "0033"
+					"id": "0033a"
 				},
 				{
 					"title": "Exercises",
 					"order": 34,
-					"id": "0034"
+					"id": "0034a"
 				}
 			]
 		}
@@ -200,31 +200,31 @@
 			"pages": [{
 					"title": "Introduction",
 					"order": 0,
-					"id": "0035"
+					"id": "0035a"
 				},
 				{
 					"title": "On Programming",
 					"order": 1,
-					"id": "0036"
+					"id": "0036a"
 				}, {
 					"title": "What is Javascript?",
 					"order": 2,
-					"id": "0037"
+					"id": "0037a"
 				},
 				{
 					"title": "Code, and what to do with it",
 					"order": 3,
-					"id": "0038"
+					"id": "0038a"
 				},
 				{
 					"title": "Overview of this book",
 					"order": 4,
-					"id": "0039"
+					"id": "0039a"
 				},
 				{
 					"title": "Typographic conventions",
 					"order": 5,
-					"id": "0040"
+					"id": "0040a"
 				}
 			]
 		},
@@ -234,41 +234,41 @@
 			"pages": [{
 					"title": "Values, types and Operators",
 					"order": 6,
-					"id": "0041"
+					"id": "0041a"
 				},
 				{
 					"title": "Values",
 					"order": 7,
-					"id": "0042"
+					"id": "0042a"
 				}, {
 					"title": "Numbers",
 					"order": 8,
-					"id": "0043"
+					"id": "0043a"
 				},
 				{
 					"title": "Strings",
 					"order": 9,
-					"id": "0044"
+					"id": "0044a"
 				},
 				{
 					"title": "Unary operators",
 					"order": 10,
-					"id": "0045"
+					"id": "0045a"
 				},
 				{
 					"title": "Boolean values",
 					"order": 11,
-					"id": "0046"
+					"id": "0046a"
 				},
 				{
 					"title": "Unified values",
 					"order": 12,
-					"id": "0047"
+					"id": "0047a"
 				},
 				{
 					"title": "Summary",
 					"order": 13,
-					"id": "0048"
+					"id": "0048a"
 				}
 			]
 		},
@@ -278,106 +278,106 @@
 			"pages": [{
 					"title": "Program Structure",
 					"order": 14,
-					"id": "0049"
+					"id": "0049a"
 				},
 				{
 					"title": "Expressions and Statements",
 					"order": 15,
-					"id": "0050"
+					"id": "0050a"
 				}, {
 					"title": "Variables",
 					"order": 16,
-					"id": "0051"
+					"id": "0051a"
 				},
 				{
 					"title": "Keywords and reserved words",
 					"order": 17,
-					"id": "0052"
+					"id": "0052a"
 				},
 				{
 					"title": "The Environment",
 					"order": 18,
-					"id": "0053"
+					"id": "0053a"
 				},
 				{
 					"title": "Functions",
 					"order": 19,
-					"id": "0054"
+					"id": "0054a"
 				},
 				{
 					"title": "The console.log() function",
 					"order": 20,
-					"id": "0055"
+					"id": "0055a"
 				},
 				{
 					"title": "Return values",
 					"order": 21,
-					"id": "0056"
+					"id": "0056a"
 				},
 				{
 					"title": "Prompt and confirm",
 					"order": 22,
-					"id": "0057"
+					"id": "0057a"
 				},
 				{
 					"title": "Control flow",
 					"order": 23,
-					"id": "0058"
+					"id": "0058a"
 				},
 				{
 					"title": "Conditional execution",
 					"order": 24,
-					"id": "0059"
+					"id": "0059a"
 				},
 				{
 					"title": "While and do loops",
 					"order": 25,
-					"id": "0060"
+					"id": "0060a"
 				},
 				{
 					"title": "Indenting code",
 					"order": 26,
-					"id": "0061"
+					"id": "0061a"
 				},
 				{
 					"title": "For loops",
 					"order": 27,
-					"id": "0062"
+					"id": "0062a"
 				},
 				{
 					"title": "Breaking out of a loop",
 					"order": 28,
-					"id": "0063"
+					"id": "0063a"
 				},
 				{
 					"title": "Updating variables succintly",
 					"order": 29,
-					"id": "0064"
+					"id": "0064a"
 				},
 				{
 					"title": "Dispatching on a value with switch",
 					"order": 30,
-					"id": "0065"
+					"id": "0065a"
 				},
 				{
 					"title": "Capitalization",
 					"order": 31,
-					"id": "0066"
+					"id": "0066a"
 				},
 				{
 					"title": "Comments",
 					"order": 32,
-					"id": "0067"
+					"id": "0067a"
 				},
 				{
 					"title": "Summary",
 					"order": 33,
-					"id": "0068"
+					"id": "0068a"
 				},
 				{
 					"title": "Exercises",
 					"order": 34,
-					"id": "0069"
+					"id": "0069a"
 				}
 			]
 		}

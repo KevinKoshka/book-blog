@@ -20,7 +20,7 @@ export class DataService {
     return TEMPLATE;
   }
 
-  getArticleInfo(id: string): Article | string {
+  getArticleInfo(id: string): Article {
     let bookCollection = this.getBooks();
     let article: Article;
     let searchResult: boolean = !_.every( bookCollection, 
@@ -46,11 +46,7 @@ export class DataService {
         )
       }
     );
-    if(searchResult) {
-      return article;
-    } else {
-      return 'Article was not found';
-    }
+    return article;
   }
 
   getArticleByOrder(bookName: string, order: number) {
@@ -76,10 +72,9 @@ export class DataService {
         }
       }
     );
-    if(searchResult) {
-      return article;
-    } else {
-      return 'Article was not found';
+    return {
+      article: article,
+      id: article.id
     }
   }
 

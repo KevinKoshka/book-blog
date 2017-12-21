@@ -6,7 +6,7 @@ import { ArticleComponent } from './article/article.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/articles/0000', pathMatch: 'full' },
+  { path: '', redirectTo: '/articles/0000a', pathMatch: 'full' },
   { path: 'articles', component: BookComponent, children: [
     { path: ':id', component: ArticleComponent }
   ]},
