@@ -1,0 +1,66 @@
+$mint-cream: #F7FFF7;
+$burnt-orange: #D45113;
+$jet: #333333;
+$dark-gunmetal: #191D32;
+$silver: #BFBFBF;
+
+.nav-button-yes {
+  font-family: 'DIN', sans-serif;
+  font-size: 20pt;
+  font-weight: 700;
+  color: $burnt-orange;
+}
+.nav-button-no {
+  font-family: 'DIN', sans-serif;
+  font-size: 20pt;
+  font-weight: 700;
+  color: $dark-gunmetal;
+}
+.item-no {
+  font-family: 'DIN', sans-serif;
+  font-size: 20pt;
+  font-weight: 400;
+  color: $silver;
+}
+.item-yes {
+  font-family: 'DIN', sans-serif;
+  font-size: 20pt;
+  font-weight: 600;
+  color: $dark-gunmetal;
+}
+.subitem-no {
+  font-family: 'DIN', sans-serif;
+  font-size: 20pt;
+  font-weight: 400;
+  color: $dark-gunmetal;
+}
+.subitem-yes {
+  font-family: 'DIN', sans-serif;
+  font-size: 20pt;
+  font-weight: 600;
+  color: $burnt-orange;
+}
+.book-title {
+  font-family: 'Heading', sans-serif;
+  font-size: 80pt;
+  font-weight: 400;
+  color: $burnt-orange;
+}
+.book-chapter {
+  font-family: 'Roboto-Slab', serif;
+  font-size: 33pt;
+  font-weight: 600;
+  color: $dark-gunmetal;
+}
+.book-subtitle {
+  font-family: 'Roboto-Slab', serif;
+  font-size: 28pt;
+  font-weight: 300;
+  color: $dark-gunmetal;
+}
+.book-subtitle {
+  font-family: 'Roboto-Slab', serif;
+  font-size: 18pt;
+  font-weight: 300;
+  color: $dark-gunmetal;
+}

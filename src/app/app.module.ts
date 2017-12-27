@@ -12,6 +12,7 @@ import { BookComponent } from './book/book.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { SplashComponent } from './splash/splash.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     PaginatorComponent,
     ArticleComponent,
     BookComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    SplashComponent
   ],
   imports: [
     BrowserModule,
