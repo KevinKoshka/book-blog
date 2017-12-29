@@ -15,7 +15,7 @@ export class SplashComponent implements OnInit {
   ngOnInit() {
     setTimeout(() => {
       this.router.navigate(['articles']);
-    }, 5000)
+    }, 9000)
   }
 
 }

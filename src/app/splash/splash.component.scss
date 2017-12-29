@@ -1,2 +1,103 @@
 @import '../styles.scss';
 
+@keyframes slidein {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.splash-container {
+  height: 100vh;
+  box-shadow: inset 0 0 0 1000px rgba(247, 255, 247, .53);
+  background: url(/assets/images/lib-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  animation-delay: 7s;
+  animation-duration: 2s;
+  animation-name: fadeout;
+  .a-row {
+    max-width: 700px;
+    margin-top: 15vh;
+  }
+}
+.logo-lg {
+  img {
+    top: -200px;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    width: 100%;
+    position: relative;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-name: slidein;
+  }
+}
+.under-column {
+  .s-title {
+    h3 {
+      font-size: 22pt;
+      font-family: DIN;
+      font-weight: 300;
+      text-align: center;
+      margin: 20px 50px;
+      opacity: 0;
+      animation-timing-function: ease-out;
+      animation-fill-mode: forwards;
+      animation-delay: 3.5s;
+      animation-duration: 1.5s;
+      animation-name: fadein;
+    }
+  }
+}
+.by-author {
+  opacity: 0;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 4.5s;
+  animation-duration: 1.5s;
+  animation-name: fadein;
+  margin: 20vh 50px 20px 50px;
+  .bar {
+    width: 160px;
+    height: 7px;
+    background-color: $dark-gunmetal;
+  }
+  .by {
+    margin: 0px 8px;
+    h3 {
+      font-family: DIN;
+      font-size: 33pt;
+      font-weight: 400;
+    }
+  }
+  .second-row {
+    h2 {
+      font-family: DIN;
+      font-size: 44px;
+      font-weight: 600;
+      letter-spacing: 7px;
+      text-align: center;
+    }
+  }
+}
