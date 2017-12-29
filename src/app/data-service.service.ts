@@ -10,18 +10,18 @@ import templatesMock from './templates-mock.json';
 @Injectable()
 export class DataService {
 
-  getBooks(): Book[] {
-    const BOOKS: Book[] = indexMock;
+  getBooks() {
+    const BOOKS: Book[] = indexMock as Book[];
     return BOOKS;
   }
 
-  getArticle(id: string) {
-    const TEMPLATE: Template = _.find(templatesMock, (o) => {return o.id === id});
+  getArticle(id: string): Template {
+    const TEMPLATE: Template = new Template(_.find(templatesMock, (o) => {return o.id === id}));
     return TEMPLATE;
   }
 
   getArticleInfo(id: string): Article | Error {
-    let bookCollection = this.getBooks();
+    let bookCollection: Book[] = this.getBooks();
     let article: Article;
     let searchResult: boolean = !_.every( bookCollection, 
       (bookVal, bookIndex, bookCol) => {
@@ -56,7 +56,7 @@ export class DataService {
   }
 
   getArticleByOrder(bookName: string, order: number): string | Error {
-    let bookCollection = this.getBooks();
+    let bookCollection: Book[] = this.getBooks();
     let article: Article;
     let theBook = _.find( bookCollection, ['name', bookName]);
     let searchResult = !_.every( theBook.chapters,
