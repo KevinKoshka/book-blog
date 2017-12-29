@@ -11,7 +11,7 @@ import { Article } from '../article';
   styleUrls: ['./article.component.scss']
 })
 export class ArticleComponent implements OnInit {
-  article: Article = {
+  article: Article = new Article({
     title: '',
     chapter: '',
     subtitle: '',
@@ -19,7 +19,7 @@ export class ArticleComponent implements OnInit {
     id: '',
     order: undefined,
     pages: undefined
-  }
+  });
   
   constructor(
     private dataService: DataService,
@@ -30,7 +30,7 @@ export class ArticleComponent implements OnInit {
     this.activatedRoute.params.subscribe((params) => {
       let article: Article | Error = this.dataService.getArticleInfo(params.id);
       if(article instanceof Article) {
-        this.article = article;
+        Object.assign(this.article, article);
         //Dispara y envía info a los suscriptores.
         this.obService.clickPage(this.article);
       } else if(article instanceof Error) {

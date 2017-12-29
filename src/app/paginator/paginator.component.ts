@@ -38,8 +38,14 @@ export class PaginatorComponent implements OnInit {
   }
 
   onPageTurn(where: number) {
-    this.nextId = this.dataService.getArticleByOrder(this.currentTitle, this.currentOrder + where).id;
-    this.router.navigate(['articles', this.nextId]);
+    let nextId: string | Error = this.dataService.getArticleByOrder(this.currentTitle, this.currentOrder + where);
+    if(typeof nextId === 'string') {
+      this.nextId = nextId;
+      this.router.navigate(['articles', this.nextId]);
+    } else if(nextId instanceof Error) {
+      this.router.navigate(['articles', 'articleNotFound']);
+    }
+    
   }
 
   constructor(

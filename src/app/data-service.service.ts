@@ -29,7 +29,7 @@ export class DataService {
           (chapterVal, chapterIndex, chapterCol) => {
             let thePage =  _.find( chapterVal.pages, ['id', id]);
             if(thePage) {
-              article = {
+              article = new Article({
                 title: bookVal.name,
                 chapter: chapterVal.title,
                 subtitle: thePage.title,
@@ -37,7 +37,7 @@ export class DataService {
                 id: id,
                 order: thePage.order,
                 pages: bookVal.pages
-              };
+              });
               return false;
             } else {
               return true;
@@ -55,7 +55,7 @@ export class DataService {
     
   }
 
-  getArticleByOrder(bookName: string, order: number) {
+  getArticleByOrder(bookName: string, order: number): string | Error {
     let bookCollection = this.getBooks();
     let article: Article;
     let theBook = _.find( bookCollection, ['name', bookName]);
@@ -63,7 +63,7 @@ export class DataService {
       (chapterVal, chapterIndex, chapterCol) => {
         let thePage = _.find( chapterVal.pages, ['order', order]);
         if(thePage) {
-          article = {
+          article = new Article({
             title: theBook.name,
             chapter: chapterVal.title,
             subtitle: thePage.title,
@@ -71,16 +71,18 @@ export class DataService {
             id: thePage.id,
             order: thePage.order,
             pages: theBook.pages
-          };
+          });
           return false;
         } else {
           return true;
         }
       }
     );
-    return {
-      article: article,
-      id: article.id
+    if(searchResult) {
+      return article.id
+    } else {
+      console.error('Error: Article order not found.');
+      return new Error('Error: Article order not found.');
     }
   }
 
