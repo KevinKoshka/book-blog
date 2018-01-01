@@ -9,11 +9,10 @@ import { NavigatorComponent } from './navigator/navigator.component';
 import { PaginatorComponent } from './paginator/paginator.component';
 import { ArticleComponent } from './article/article.component';
 import { BookComponent } from './book/book.component';
-
 import { AppRoutingModule } from './app-routing.module';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SplashComponent } from './splash/splash.component';
-
+import { UtilitiesService } from  './utilities.service';
 
 @NgModule({
   declarations: [
@@ -23,7 +22,7 @@ import { SplashComponent } from './splash/splash.component';
     ArticleComponent,
     BookComponent,
     NotFoundComponent,
-    SplashComponent
+    SplashComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,7 +31,8 @@ import { SplashComponent } from './splash/splash.component';
   ],
   providers: [
     DataService,
-    ObService
+    ObService,
+    UtilitiesService
   ],
   bootstrap: [AppComponent]
 })

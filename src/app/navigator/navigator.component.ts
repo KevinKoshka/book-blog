@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 import { Book } from '../book';
+import { UtilitiesService } from '../utilities.service';
 
 @Component({
   selector: 'app-navigator',
@@ -10,7 +11,7 @@ import { Book } from '../book';
 export class NavigatorComponent implements OnInit {
   @Input() books: Book[];
 
-  constructor() { }
+  constructor(private util: UtilitiesService) { }
 
   ngOnInit() {
   }

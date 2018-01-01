@@ -1,6 +1,52 @@
+@import '../styles.scss';
+
 .navigator {
-    max-width: 280px;
+    width: 580px;
 }
-.navigator, .paginator {
-    background-color: rgb(214, 214, 214);
+.parent-container {
+    background-color: $mint-cream;
+    .navbar {
+        background-color: $mint-cream;
+        .form-inline {
+            position: relative;
+            top: 1px;
+            input {
+                background-color: $mint-cream;
+                border: none;
+            }
+            input:focus {
+                box-shadow: none;
+                color: $dark-gunmetal;
+            }
+            .btn-search {
+                position: relative;
+                top: -4px;
+            }
+        }
+        .logo-lg {
+            margin-left: $mg-double;
+        }
+        .navbar-nav {
+            padding-right: 10%;
+            .nav-link {
+                padding-left: $mg-small;
+                padding-right: $mg-small;
+            }
+        }
+        .top-nav-item {
+            border-bottom: 6px solid $dark-gunmetal;
+            transition: border .25s ease-in-out;
+        }
+        .top-nav-item.active {
+            border-bottom-color: $burnt-orange;
+        }
+        .top-nav-item:hover,
+        .top-nav-item:active,
+        .top-nav-item:focus {
+          border-bottom-color: $burnt-orange;
+        }
+    }
+    .app-body {
+        margin-top: 106px;
+    }
 }

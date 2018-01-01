@@ -1,19 +1,25 @@
+//Base colors
 $mint-cream: #F7FFF7;
 $burnt-orange: #D45113;
 $jet: #333333;
 $dark-gunmetal: #191D32;
 $silver: #BFBFBF;
 
-.nav-button-yes {
-  font-family: 'DIN', sans-serif;
-  font-size: 20pt;
-  font-weight: 700;
-  color: $burnt-orange;
+//Margins and paddings
+$mg-small: 15px;
+$mg-double: 30px;
+$mg-big: 45px;
+
+//Font classes
+.nav-button.active {
+  font-size: 19pt !important;
+  font-weight: 700 !important;
+  color: $burnt-orange !important;
 }
-.nav-button-no {
+.nav-button {
   font-family: 'DIN', sans-serif;
-  font-size: 20pt;
-  font-weight: 700;
+  font-size: 19pt;
+  font-weight: 600;
   color: $dark-gunmetal;
 }
 .item-no {
@@ -63,4 +69,28 @@ $silver: #BFBFBF;
   font-size: 18pt;
   font-weight: 300;
   color: $dark-gunmetal;
+}
+.body-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17pt;
+  font-weight: 300;
+  color: $dark-gunmetal;
+}
+
+//Button classes
+.btn-icon {
+  font-size: 17pt;
+  cursor: pointer;
+  color: $dark-gunmetal !important;
+  transition: color .25s ease-in-out;
+}
+.active {
+  .btn-icon{
+    color: $burnt-orange !important;
+  }
+}
+.btn-icon:hover,
+.btn-icon:active,
+.btn-icon:focus {
+  color: $burnt-orange !important;
 }

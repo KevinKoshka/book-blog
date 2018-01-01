@@ -20,7 +20,8 @@
       "prefix": "app",
       "styles": [
         "styles.css",
-        "bootstrap.min.css"
+        "bootstrap.min.css",
+        "app/css/font-awesome/css/font-awesome.min.css"
       ],
       "scripts": [
         "../node_modules/popper.js/dist/umd/popper.min.js",

@@ -1,16 +1,47 @@
-<div class="container-fluid">
-  <h1 class="blog-title">The Book Blog</h1>
-</div>
-<div class="row">
-  <div class="col-md-3 sidebar">
-    <div class="navigator">
-        <app-navigator [books]="bookList"></app-navigator>
-    </div>
-  </div>
-  <div class="col-md">
-    <div class="paginator">
-        <app-paginator></app-paginator>
-    </div>
-  </div>
-</div>
+<div class="parent-container">
 
+  <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+    <a class="navbar-brand" href="#">
+      <img class="logo-lg" src="../assets/images/logo-large.svg" height="80" alt="logo-lg-small">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <form class="form-inline my-2 my-lg-0 top-nav-item">
+        <input class="form-control mr-sm-2 body-text" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-link btn-icon btn-search" type="submit">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
+      <ul class="navbar-nav">
+        <li class="nav-item top-nav-item active">
+          <a class="nav-link nav-button btn-icon" href="#">BOOKS
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item top-nav-item">
+          <a class="nav-link nav-button btn-icon">ABOUT</a>
+        </li>
+        <li class="nav-item top-nav-item">
+          <a class="nav-link nav-button btn-icon">ADD A BOOK</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="d-flex flex-row app-body">
+    <div class="sidebar">
+      <div class="navigator">
+        <app-navigator [books]="bookList"></app-navigator>
+      </div>
+    </div>
+    <div class="">
+      <div class="paginator">
+        <app-paginator></app-paginator>
+      </div>
+    </div>
+  </div>
+
+</div>
