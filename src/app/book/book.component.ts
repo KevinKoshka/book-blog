@@ -1,8 +1,10 @@
+import { ViewEncapsulation } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { Book } from '../book';
 import { DataService } from '../data-service.service';
 
 @Component({
+  encapsulation: ViewEncapsulation.None,
   selector: 'app-book',
   templateUrl: './book.component.html',
   styleUrls: ['./book.component.scss']

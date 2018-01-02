@@ -5,20 +5,71 @@ $jet: #333333;
 $dark-gunmetal: #191D32;
 $silver: #BFBFBF;
 
+//Media queries variables and mixins
+$xs-size: 576px;
+$s-size: 768px;
+$m-size: 992px;
+$l-size: 1350px;
+$xl-size: 1585px;
+
+@mixin xs-screen {
+  @media (max-width: #{$xs-size - 1px}) {
+    @content;
+  }
+}
+
+@mixin s-screen {
+  @media (min-width: #{$xs-size}) and (max-width: #{$s-size - 1px}) {
+    @content;
+  }
+}
+
+@mixin m-screen {
+  @media (min-width: #{$s-size}) and (max-width: #{$m-size - 1px}) {
+    @content;
+  }
+}
+
+@mixin l-screen {
+  @media (min-width: #{$m-size}) and (max-width: #{$l-size - 1px}) {
+    @content;
+  }
+}
+
+@mixin xl-screen {
+  @media (min-width: #{$l-size}) and (max-width: #{$xl-size - 1px}) {
+    @content;
+  }
+}
+
+@mixin xxl-screen {
+  @media (min-width: #{$xl-size}) {
+    @content;
+  }
+}
+
+//Media queries
+html {
+  font-size: 16px;
+  @include xxl-screen {
+    font-size: 18px;
+  }
+}
+
 //Margins and paddings
-$mg-small: 15px;
-$mg-double: 30px;
-$mg-big: 45px;
+$mg-small: 1rem;
+$mg-double: 2rem;
+$mg-big: 3rem;
 
 //Font classes
 .nav-button.active {
-  font-size: 19pt !important;
+  font-size: 1rem !important;
   font-weight: 700 !important;
   color: $burnt-orange !important;
 }
 .nav-button {
   font-family: 'DIN', sans-serif;
-  font-size: 19pt;
+  font-size: 1rem;
   font-weight: 600;
   color: $dark-gunmetal;
 }
@@ -72,14 +123,14 @@ $mg-big: 45px;
 }
 .body-text {
   font-family: 'Roboto', sans-serif;
-  font-size: 17pt;
+  font-size: .95em;
   font-weight: 300;
   color: $dark-gunmetal;
 }
 
 //Button classes
 .btn-icon {
-  font-size: 17pt;
+  font-size: 1rem;
   cursor: pointer;
   color: $dark-gunmetal !important;
   transition: color .25s ease-in-out;

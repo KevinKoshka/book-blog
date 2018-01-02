@@ -1,16 +1,16 @@
-<div>
+<div id="index-list">
   <ul class="list-group accordion" role="tablist">
     <li class="list-group-item list-group-item-action card" *ngFor="let book of books">
       <div class="card-header" role="tab">
         <a data-toggle="collapse" href="#{{util.idify(book.name)}}" role="button"><h3>{{ book.name }}</h3></a>
-      </div>
-      
+      </div>   
 
       <ol id="{{util.idify(book.name)}}" class="collapse" role="tabpanel" data-parent="#accordion">
         <li class="list-group-item list-group-item-action" *ngFor="let chapter of book.chapters">
           <div class="card-header" role="tab">
             <a data-toggle="collapse" href="#{{util.idify(chapter.title) + '-chapter-' + util.idify(book.name)}}" role="button"><h4>{{ chapter.title }}</h4></a>
           </div>
+          
           <ol id="{{util.idify(chapter.title) + '-chapter-' + util.idify(book.name)}}" class="collapse" role="tabpanel" data-parent="#accordion">
             <li class="list-group-item list-group-item-action" *ngFor="let page of chapter.pages">
               <a routerLink="/articles/{{page.id}}">
