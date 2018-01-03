@@ -11,6 +11,8 @@ $s-size: 768px;
 $m-size: 992px;
 $l-size: 1350px;
 $xl-size: 1585px;
+$xxl-size: 1920px;
+$xxxl-size: 2560px;
 
 @mixin xs-screen {
   @media (max-width: #{$xs-size - 1px}) {
@@ -43,7 +45,19 @@ $xl-size: 1585px;
 }
 
 @mixin xxl-screen {
-  @media (min-width: #{$xl-size}) {
+  @media (min-width: #{$xl-size}) and (max-width: #{$xxl-size - 1px}) {
+    @content;
+  }
+}
+
+@mixin xxxl-screen {
+  @media (min-width: #{$xxl-size}) and (max-width: #{$xxxl-size - 1px}) {
+    @content;
+  }
+}
+
+@mixin xxxxl-screen {
+  @media (min-width: #{$xxxl-size}) {
     @content;
   }
 }
@@ -54,12 +68,22 @@ html {
   @include xxl-screen {
     font-size: 18px;
   }
+  @include xxxl-screen {
+    font-size: 19px;
+  }
+  @include xxxxl-screen {
+    font-size: 21px;
+  }
 }
 
 //Margins and paddings
 $mg-small: 1rem;
 $mg-double: 2rem;
 $mg-big: 3rem;
+
+a {
+  text-decoration: none;
+}
 
 //Font classes
 .nav-button.active {
@@ -75,28 +99,25 @@ $mg-big: 3rem;
 }
 .item-no {
   font-family: 'DIN', sans-serif;
-  font-size: 20pt;
+  font-size: 1rem;
   font-weight: 400;
   color: $silver;
-}
-.item-yes {
-  font-family: 'DIN', sans-serif;
-  font-size: 20pt;
-  font-weight: 600;
-  color: $dark-gunmetal;
+  &.yes {
+    font-weight: 600 !important;
+    color: $dark-gunmetal !important;
+  }
 }
 .subitem-no {
   font-family: 'DIN', sans-serif;
-  font-size: 20pt;
+  font-size: 1rem;
   font-weight: 400;
   color: $dark-gunmetal;
+  &.yes {
+    font-weight: 600 !important;
+    color: $burnt-orange !important;
+  }
 }
-.subitem-yes {
-  font-family: 'DIN', sans-serif;
-  font-size: 20pt;
-  font-weight: 600;
-  color: $burnt-orange;
-}
+
 .book-title {
   font-family: 'Heading', sans-serif;
   font-size: 80pt;
@@ -145,3 +166,4 @@ $mg-big: 3rem;
 .btn-icon:focus {
   color: $burnt-orange !important;
 }
+

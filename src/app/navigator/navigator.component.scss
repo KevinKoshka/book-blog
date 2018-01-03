@@ -1,0 +1,17 @@
+@import '../imports.scss';
+
+.menu-item {
+    border:  none;
+    background-color: $mint-cream;
+    .book-name {
+        span {
+            i {
+                font-size: .8rem
+            }
+        }
+    }
+}
+.menu-item:focus, .menu-item:hover {
+    background-color: $mint-cream;
+    outline: none;
+}

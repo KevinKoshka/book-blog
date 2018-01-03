@@ -1,20 +1,20 @@
 <div id="index-list">
-  <ul class="list-group accordion" role="tablist">
-    <li class="list-group-item list-group-item-action card" *ngFor="let book of books">
-      <div class="card-header" role="tab">
-        <a data-toggle="collapse" href="#{{util.idify(book.name)}}" role="button"><h3>{{ book.name }}</h3></a>
+  <ul class="list-group menu-list" id="accordion" role="tablist">
+    <li class="list-group-item list-group-item-action menu-item" *ngFor="let book of books">
+      <div class="d-flex align-items-center" role="tab" id="{{makeID(book.name).header()}}">
+        <a data-toggle="collapse" class="book-name" [attr.aria-expanded]="true" [attr.aria-controls]="makeID(book.name).collapse()" href="#{{makeID(book.name).collapse()}}" role="button"><span class="item-no" id="{{book.name}}"><i class="fa fa-chevron-right"></i> {{ book.name }}</span></a>
       </div>   
 
-      <ol id="{{util.idify(book.name)}}" class="collapse" role="tabpanel" data-parent="#accordion">
-        <li class="list-group-item list-group-item-action" *ngFor="let chapter of book.chapters">
-          <div class="card-header" role="tab">
-            <a data-toggle="collapse" href="#{{util.idify(chapter.title) + '-chapter-' + util.idify(book.name)}}" role="button"><h4>{{ chapter.title }}</h4></a>
+      <ol id="{{makeID(book.name).collapse()}}" [attr.aria-labelledby]="makeID(book.name).header()" class="collapse" role="tabpanel" data-parent="#accordion">
+        <li class="list-group-item list-group-item-action menu-item" *ngFor="let chapter of book.chapters">
+          <div role="tab" id="{{makeID(book.name, chapter.title).header()}}">
+            <a data-toggle="collapse" [attr.aria-expanded]="true" [attr.aria-controls]="makeID(book.name, chapter.title).collapse()" href="#{{makeID(book.name, chapter.title).collapse()}}" role="button"><span class="subitem-no">{{ chapter.title }}</span></a>
           </div>
-          
-          <ol id="{{util.idify(chapter.title) + '-chapter-' + util.idify(book.name)}}" class="collapse" role="tabpanel" data-parent="#accordion">
-            <li class="list-group-item list-group-item-action" *ngFor="let page of chapter.pages">
+
+          <ol id="{{makeID(book.name, chapter.title).collapse()}}" [attr.aria-labelledby]="makeID(book.name, chapter.title).header()" class="collapse" role="tabpanel" [attr.data-parent]="'#' + makeID(book.name).collapse()">
+            <li class="list-group-item list-group-item-action menu-item" *ngFor="let page of chapter.pages">
               <a routerLink="/articles/{{page.id}}">
-                <h5>{{ page.title }}</h5>
+                <span class="subitem-no">{{ page.title }}</span>
               </a>
             </li>
           </ol>
