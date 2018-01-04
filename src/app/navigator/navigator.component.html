@@ -2,19 +2,19 @@
   <ul class="list-group menu-list" id="accordion" role="tablist">
     <li class="list-group-item list-group-item-action menu-item" *ngFor="let book of books">
       <div class="d-flex align-items-center" role="tab" id="{{makeID(book.name).header()}}">
-        <a data-toggle="collapse" class="book-name" [attr.aria-expanded]="true" [attr.aria-controls]="makeID(book.name).collapse()" href="#{{makeID(book.name).collapse()}}" role="button"><span class="item-no" id="{{book.name}}"><i class="fa fa-chevron-right"></i> {{ book.name }}</span></a>
+        <a data-toggle="collapse" class="book-name" [attr.aria-expanded]="true" [attr.aria-controls]="makeID(book.name).collapse()" href="#{{makeID(book.name).collapse()}}" role="button"><span class="item-no" [ngClass]="current.bookname === util.idify(book.name) ? 'yes' : ''"><i class="fa fa-chevron-right"></i> {{ book.name }}</span></a>
       </div>   
 
-      <ol id="{{makeID(book.name).collapse()}}" [attr.aria-labelledby]="makeID(book.name).header()" class="collapse" role="tabpanel" data-parent="#accordion">
+      <ol id="{{makeID(book.name).collapse()}}" [attr.aria-labelledby]="makeID(book.name).header()" class="collapse ols" role="tabpanel" data-parent="#accordion">
         <li class="list-group-item list-group-item-action menu-item" *ngFor="let chapter of book.chapters">
           <div role="tab" id="{{makeID(book.name, chapter.title).header()}}">
             <a data-toggle="collapse" [attr.aria-expanded]="true" [attr.aria-controls]="makeID(book.name, chapter.title).collapse()" href="#{{makeID(book.name, chapter.title).collapse()}}" role="button"><span class="subitem-no">{{ chapter.title }}</span></a>
           </div>
 
-          <ol id="{{makeID(book.name, chapter.title).collapse()}}" [attr.aria-labelledby]="makeID(book.name, chapter.title).header()" class="collapse" role="tabpanel" [attr.data-parent]="'#' + makeID(book.name).collapse()">
+          <ol id="{{makeID(book.name, chapter.title).collapse()}}" [attr.aria-labelledby]="makeID(book.name, chapter.title).header()" class="collapse ols" role="tabpanel" [attr.data-parent]="'#' + makeID(book.name).collapse()">
             <li class="list-group-item list-group-item-action menu-item" *ngFor="let page of chapter.pages">
               <a routerLink="/articles/{{page.id}}">
-                <span class="subitem-no">{{ page.title }}</span>
+                <span class="subitem-no" [ngClass]="current.pagename === util.idify(page.title) ? 'yes' : ''">{{ page.title }}</span>
               </a>
             </li>
           </ol>

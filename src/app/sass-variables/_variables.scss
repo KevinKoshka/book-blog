@@ -1,7 +1,7 @@
 //Base colors
 $mint-cream: #F7FFF7;
 $burnt-orange: #D45113;
-$jet: #333333;
+$jet: #7c7c7c;
 $dark-gunmetal: #191D32;
 $silver: #BFBFBF;
 
@@ -84,6 +84,12 @@ $mg-big: 3rem;
 a {
   text-decoration: none;
 }
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
 
 //Font classes
 .nav-button.active {
@@ -109,7 +115,7 @@ a {
 }
 .subitem-no {
   font-family: 'DIN', sans-serif;
-  font-size: 1rem;
+  font-size: .85rem;
   font-weight: 400;
   color: $dark-gunmetal;
   &.yes {
@@ -120,23 +126,23 @@ a {
 
 .book-title {
   font-family: 'Heading', sans-serif;
-  font-size: 80pt;
+  font-size: 1.5rem;
   font-weight: 400;
   color: $burnt-orange;
 }
 .book-chapter {
-  font-family: 'Roboto-Slab', serif;
-  font-size: 33pt;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.4rem;
   font-weight: 600;
   color: $dark-gunmetal;
 }
 .book-subtitle {
-  font-family: 'Roboto-Slab', serif;
-  font-size: 28pt;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
   font-weight: 300;
-  color: $dark-gunmetal;
+  color: $jet;
 }
-.book-subtitle {
+.book-s-subtitle {
   font-family: 'Roboto-Slab', serif;
   font-size: 18pt;
   font-weight: 300;
@@ -144,7 +150,7 @@ a {
 }
 .body-text {
   font-family: 'Roboto', sans-serif;
-  font-size: .95em;
+  font-size: 1.15em;
   font-weight: 300;
   color: $dark-gunmetal;
 }

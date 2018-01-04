@@ -1,6 +1,12 @@
 @import '../imports.scss';
 
+#index-list {
+    padding: $mg-small $mg-small $mg-small $mg-big;
+    width: 24rem;
+}
+
 .menu-item {
+    padding: .25rem 0px;
     border:  none;
     background-color: $mint-cream;
     .book-name {
@@ -10,8 +16,12 @@
             }
         }
     }
+    &:focus, &:hover {
+        background-color: $mint-cream;
+        outline: none;
+    }
 }
-.menu-item:focus, .menu-item:hover {
-    background-color: $mint-cream;
-    outline: none;
+
+.ols {
+    padding: 0 $mg-double;
 }

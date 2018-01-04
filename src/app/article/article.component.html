@@ -1,4 +1,9 @@
-<h2>{{ article.title }}</h2>
-<h3>{{ article.chapter }}</h3>
-<h4>{{ article.subtitle }}</h4>
-<div [innerHTML]="article.template"></div>
+<div class="art-container">
+    <article class="art d-flex flex-column">
+        <h2 class="book book-title">{{ article.title }}</h2>
+        <div class="divisor"></div>
+        <h3 class="chapter book-chapter">{{ article.chapter }}</h3>
+        <h4 class="subtitle book-subtitle">{{ article.subtitle }}</h4>
+        <div class="art-template" [innerHTML]="article.template"></div>
+    </article>
+</div>
