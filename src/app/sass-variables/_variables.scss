@@ -160,7 +160,7 @@ body {
   font-size: 1rem;
   cursor: pointer;
   color: $dark-gunmetal !important;
-  transition: color .25s ease-in-out;
+  transition: all .25s ease-in-out;
 }
 .active {
   .btn-icon{
@@ -171,5 +171,18 @@ body {
 .btn-icon:active,
 .btn-icon:focus {
   color: $burnt-orange !important;
+}
+
+.btn-bc {
+  background-color: transparent;
+  border: .185rem solid $dark-gunmetal;
+  padding: .1rem .5rem;
+}
+.btn-bc:hover,
+.btn-bc:active,
+.btn-bc:focus {
+  color: $burnt-orange !important;
+  border-color: $burnt-orange !important;
+  outline: none;
 }
 

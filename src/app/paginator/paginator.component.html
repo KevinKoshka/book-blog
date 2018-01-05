@@ -1,5 +1,7 @@
 <div>
     <router-outlet></router-outlet>
-    <button [disabled]='button.previousDisabled' (click)="onPageTurn(-1)">Previous</button>
-    <button [disabled]='button.nextDisabled' (click)="onPageTurn(1)">Next</button>
+    <div class="pag-buttons d-flex justify-content-between">
+        <button class="btn-icon nav-button btn-bc" [disabled]='button.previousDisabled' (click)="onPageTurn(-1)"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+        <button class="btn-icon nav-button btn-bc" [disabled]='button.nextDisabled' (click)="onPageTurn(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+    </div>
 </div>

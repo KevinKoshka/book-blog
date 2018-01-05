@@ -70,34 +70,4 @@
     }
   }
 }
-.by-author {
-  opacity: 0;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-  animation-delay: 4.5s;
-  animation-duration: 1.5s;
-  animation-name: fadein;
-  margin: 20vh 50px 20px 50px;
-  .bar {
-    width: 160px;
-    height: 7px;
-    background-color: $dark-gunmetal;
-  }
-  .by {
-    margin: 0px 8px;
-    h3 {
-      font-family: DIN;
-      font-size: 33pt;
-      font-weight: 400;
-    }
-  }
-  .second-row {
-    h2 {
-      font-family: DIN;
-      font-size: 44px;
-      font-weight: 600;
-      letter-spacing: 7px;
-      text-align: center;
-    }
-  }
-}
+
