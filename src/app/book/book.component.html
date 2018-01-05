@@ -30,8 +30,8 @@
         </ul>
       </div>
     </nav>
-  
-    <div class="d-flex flex-row app-body">
+
+    <div class="app-body">
       <div class="sidebar">
         <div class="navigator">
           <app-navigator [books]="bookList"></app-navigator>
@@ -42,10 +42,17 @@
           <app-paginator></app-paginator>
         </div>
       </div>
+      <div>
+        <footer></footer>
+      </div>
     </div>
 
-    <footer>
-      
+    <footer class="footer">
+      <img class="logo-sm" src="../assets/images/logo-small.svg" alt="logo-sm-small">
+      <div class="footext">
+        <span>Book Compendium</span>
+        <span>Powered by Kevin Koshka</span>
+      </div>
     </footer>
   </div>
 </div>

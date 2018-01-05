@@ -1,16 +1,35 @@
 @import '../imports.scss';
 
-.paginator {
-    padding-right: 6rem;
-    height: 100%;
-    flex-grow: 1;
-}
+
 
 .parent-container {
     background-color: $mint-cream;
     height: 100%;
     .child-container {
         background-color: $mint-cream;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        margin: 0;
+        .footer {
+            width: 100%;
+            height: 3rem;
+            background-color: $burnt-orange;
+        }
+        .app-body {
+            padding-top: 5.1rem;
+            display: flex;
+            flex: 1;
+            .paginator {
+                padding-right: 6rem;
+                height: 100%;
+                flex: 1;
+                order: 2;
+            }
+            .sidebar {
+                order: 1;
+            }
+        }
     }
     .navbar {
         background-color: $mint-cream;
@@ -55,8 +74,5 @@
         .top-nav-item:focus {
           border-bottom-color: $burnt-orange;
         }
-    }
-    .app-body {
-        padding-top: 5.1rem;
-    }
+    }    
 }
